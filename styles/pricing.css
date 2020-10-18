@@ -1,0 +1,188 @@
+.navbar{
+        
+        background:#2986fc;
+
+}
+
+
+html {
+  font-size: 14px;
+}
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.container {
+  max-width: 960px;
+}
+
+.pricing-header {
+  max-width: 700px;
+}
+
+.card-deck .card {
+  min-width: 220px;
+}
+
+.border-top { border-top: 1px solid #e5e5e5; }
+.border-bottom { border-bottom: 1px solid #e5e5e5; }
+
+.box-shadow { box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05); }
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: gainsboro;
+}
+
+html {
+  font-size: 14px;
+}
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.container {
+  max-width: 960px;
+}
+
+.pricing-header {
+  max-width: 700px;
+}
+
+.card-deck .card {
+  min-width: 220px;
+}
+
+.border-top { border-top: 1px solid #e5e5e5; }
+.border-bottom { border-bottom: 1px solid #e5e5e5; }
+
+.box-shadow { box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05); }
+
+
+
+
+
+.newsletter-subscribe {
+  color:#313437;
+  background-color:#fff;
+  padding:50px 0;
+}
+
+.newsletter-subscribe p {
+  color:#7d8285;
+  line-height:1.5;
+}
+
+.newsletter-subscribe h2 {
+  font-size:24px;
+  font-weight:bold;
+  margin-bottom:25px;
+  line-height:1.5;
+  padding-top:0;
+  margin-top:0;
+  color:inherit;
+}
+
+.newsletter-subscribe .intro {
+  font-size:16px;
+  max-width:500px;
+  margin:0 auto 25px;
+}
+
+.newsletter-subscribe .intro p {
+  margin-bottom:35px;
+}
+
+.newsletter-subscribe form {
+  justify-content:center;
+}
+
+.newsletter-subscribe form .form-control {
+  background:#eff1f4;
+  border:none;
+  border-radius:3px;
+  box-shadow:none;
+  outline:none;
+  color:inherit;
+  text-indent:9px;
+  height:45px;
+  margin-right:10px;
+  min-width:250px;
+}
+
+.newsletter-subscribe form .btn {
+  padding:16px 32px;
+  border:none;
+  background:none;
+  box-shadow:none;
+  text-shadow:none;
+  opacity:0.9;
+  text-transform:uppercase;
+  font-weight:bold;
+  font-size:13px;
+  letter-spacing:0.4px;
+  line-height:1;
+}
+
+.newsletter-subscribe form .btn:hover {
+  opacity:1;
+}
+
+.newsletter-subscribe form .btn:active {
+  transform:translateY(1px);
+}
+
+.newsletter-subscribe form .btn-primary {
+  background-color:#055ada !important;
+  color:#fff;
+  outline:none !important;
+}
+
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 140px;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px;
+  position: absolute;
+  z-index: 1;
+  bottom: 150%;
+  left: 50%;
+  margin-left: -75px;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.tooltip .tooltiptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}

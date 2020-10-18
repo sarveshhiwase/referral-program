@@ -1,0 +1,166 @@
+
+h2 {
+            text-align:center;
+            font-family:Courier New;
+        }
+  .container2 {
+  height: 100px;
+  width: 300px;
+  background: rgb(236, 251, 255);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 10px;
+  box-shadow: 0px 5px 10px -6px rgba(0, 0, 0, 0.5);
+  overflow: hidden;
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+.container2>div {
+  text-align: center;
+}
+
+.container2>div:hover {
+  cursor: pointer;
+}
+
+.left {
+  background: rgb(192, 102, 177);
+}
+
+.right {
+  background: rgb(97, 165, 255);
+}
+
+.text {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  user-select: none;
+}
+
+.option-title {
+  color: rgba(255, 255, 255, 1);
+}
+
+.option-size {
+  color: rgba(255, 255, 255, 1);
+  font-size: 20px;
+}
+     
+     
+
+        #loginAlert{
+		    display: none;
+		}
+
+		body,
+		html {
+            font-family: 'Noto Sans SC', sans-serif;
+			margin: 0;
+			padding: 0;
+			height: 100%;
+			background: linear-gradient(45deg, #00dbde, #fc00ff); !important;
+                        font-weight: bold;
+		}
+		.user_card {
+			height: auto;
+			width: 350px;
+			margin-top: auto;
+			margin-bottom: auto;
+			background: #FFFFFF;
+			position: relative;
+			display: flex;
+			justify-content: center;
+			flex-direction: column;
+			padding: 10px;
+			box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+			-webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+			-moz-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+			border-radius: 5px;
+
+		}
+	
+		.brand_logo_container {
+			position: absolute;
+			height: 170px;
+			width: 170px;
+			top: -75px;
+			border-radius: 50%;
+			background: #60a3bc;
+			padding: 10px;
+			text-align: center;
+		}
+		.brand_logo {
+			height: 150px;
+			width: 150px;
+			border-radius: 50%;
+			border: 2px solid white;
+		}
+		.form_container {
+			margin-top: 100px;
+		}
+	
+                .login_btn {
+  border-radius: 4px;
+  border: none;
+  width: 100%;
+			background: linear-gradient(45deg, #00dbde, #fc00ff);
+			color: white !important;
+                        font-weight: bold;
+  text-align: center;
+  padding: 5px 0px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.login_btn span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.login_btn span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.login_btn:hover span {
+  padding-right: 25px;
+}
+
+.login_btn:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+		.login_btn:focus {
+			box-shadow: none !important;
+			outline: 0px !important;
+		}
+		.login_container {
+			padding: 0 2rem;
+		}
+		.input-group-text {
+			background: #c0392b !important;
+                        font-weight: bold;
+			color: white !important;
+			border: 0 !important;
+			border-radius: 0.25rem 0 0 0.25rem !important;
+		}
+		.input_user,
+		.input_pass:focus {
+			box-shadow: none !important;
+			outline: 0px !important;
+		}
+	
+		
